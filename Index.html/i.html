@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abir's Resturent & Dinner</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<style>
+    body {
+        font-family: 'Playball', cursive;
+        margin: 0px;
+        padding: 0px;
+        /* background-image:  url('bg.jpg'); */
+        color: white;
+        background-size: cover;
+    }
+
+    .left {
+        position: absolute;
+        display: inline-block;
+        /* border: 2px solid white; */
+        left: 425px;
+        top: 3px;
+        font-size: 41px;
+
+    }
+
+    .left div {
+        text-align: left;
+        padding: 36px;
+
+    }
+
+    .center {
+        display: block;
+        width: 45%;
+        /* border: 2px solid white; */
+        margin: 0px 0px 2px 810px;
+        left: 500px;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        display: inline-block;
+        /* border: 2px solid white; */
+
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: #fcfdfc;
+        background-color: rgb(55, 241, 133);
+        border-radius: 10px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        font-size: 30px;
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .left img {
+        width: 138px;
+    }
+
+    .name {
+        position: relative;
+        left: 348px;
+        display: inline-block;
+        top: 55px;
+        font-size: 37px;
+        color: #fdfdfd;
+
+    }
+
+    .btn {
+        font-family: 'Playball', cursive;
+        margin: 0px 10px;
+        background-color: green;
+        color: white;
+        padding: 16px 16px;
+        font-size: 20px;
+        border: 2px solid green;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(6, 185, 15);
+    }
+
+    .abir {
+        color: #bc9a3a;
+        position: absolute;
+        left: 44%;
+        display: inline-block;
+        /* border: 2px solid green; */
+        font-size: 124px;
+        margin: 134px auto;
+
+    }
+
+    .container {
+        margin: 344px 83px;
+        border: 3px solid white;
+        position: absolute;
+        display: block;
+        border-radius: 15px;
+        padding: 0px 122px;
+        width: 25%;
+        font-size: px;
+        height: 305px;
+    }
+
+    .from input {
+        outline: none;
+        font-family: 'Playball', cursive;
+        border-radius: 10px;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        width: 468px;
+        padding: 15px;
+        border: 2px solid rgb(25, 224, 108);
+        margin: 8px auto;
+        background-color: white;
+        color: black;
+    }
+
+    .from input:hover,
+    .from input:active {
+        background-color: white;
+    }
+
+    .from button {
+        display: block;
+        width: 30%;
+        margin: 1px auto;
+
+
+    }
+
+    .submit {
+        font-family: 'Playball', cursive;
+        margin: 7px 40px;
+        background-color: green;
+        color: white;
+        padding: 10px 209px;
+        font-size: 20px;
+        border: 2px solid green;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+
+    .submit:hover {
+        background-color: rgba(104, 110, 104, 0.87);
+    }
+
+    .bg {
+        background-image: url(bg1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 1920px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .wel {
+        position: relative;
+        width: 69%;
+        height: 100px;
+        background-color: transparent;
+        animation-name: abir;
+        animation-duration: 2.2s;
+        animation-iteration-count: infinite;
+        font-size: 52px;
+        animation-fill-mode: alternate;
+        margin: 260px auto;
+        /* animation-timing-function: ease-out; */
+        left: 125px;
+        border: 3px solid;
+        text-align: center;
+        border-radius: 14px;
+    }
+
+    @keyframes abir {
+        from {
+            width: 52px;
+        }
+
+        to {
+            width: 69%;
+        }
+
+    }
+
+    .box:hover {
+        background-color: transparent;
+    }
+
+    .contact {
+        border: 3px solid;
+        background-color: transparent;
+        height: 1500px;
+        /* background-color: black; */
+    }
+
+    .book {
+        position: relative;
+        margin: 2px auto;
+        padding: 700px 250px;
+        background-image: url(Bookbg.jpg);
+        background-size: cover;
+
+    }
+
+    .from-container {
+        border: 3px solid rgb(255, 255, 255);
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        width: 45%;
+        margin: 190px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+
+    .book-from {
+        /* border: 2px solid green; */
+        border-radius: 20px;
+        text-align: left;
+        width: 710px;
+        margin: 10px;
+    }
+
+    .book-from input {
+        outline: none;
+        font-family: 'Playball', cursive;
+        border-radius: 15px;
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        width: 667px;
+        padding: 15px;
+        border: 2px solid rgb(18, 228, 123);
+        margin: 8px auto;
+        background-color: white;
+        color: black;
+    }
+
+    .from-container button {
+        /* width: 662px; */
+        border: 2px solid green;
+        border-radius: 25px;
+        text-align: left;
+        width: 695px;
+        margin: 10px;
+        text-align: center;
+    }
+.date input{
+    outline: none;
+    position: absolute;
+    left: 15px;
+    font-family: 'Playball', cursive;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 330px;
+    padding: 15px;
+    border: 2px solid rgb(18, 228, 123);
+    margin: 8px auto;
+    background-color: white;
+    color: black;
+}
+.time input{
+    outline: none;
+    position: relative;
+    font-family: 'Playball', cursive;
+    left: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 270px;
+    padding: 15px;
+    border: 2px solid rgb(18, 228, 123);
+    margin: 18px auto;
+    background-color: white;
+    color: black;
+}
+</style>
+
+<body>
+    <div class="bg">
+        <header class="header">
+            <!-- Left box for logo -->
+            <div class="left">
+                <a href="index.html" target="blank"> <img src="logo.png" alt=""></a>
+
+            </div>
+            <!-- Center box for navber -->
+            <div class="center">
+                <ul class="navbar">
+                    <li><a href="" class="active"> Home</a></li>
+                    <li><a href="#"target="blank">About Us</a> </li>
+                    <li><a href="#">Popular Packag</a> </li>
+                    <li><a href="#"> Contact Us</a></li>
+                </ul>
+                <div class="animation start-home"></div>
+            </div>
+            <!-- Right box for battuns -->
+            <div class="right">
+                <button class="btn">
+                    Emial Us 
+                </button>
+                <button class="btn">Register</button>
+
+            </div>
+        </header>
+        <div class="name"> Abir's Resturent</div>
+        <!-- <div class="abir">Abir MAsum</div> -->
+        <div class="container">
+            <h1>
+                Please Login For Your Order
+            </h1>
+            <form action="noaction.php">
+                <div class="from">
+                    <input type="text" name="" placeholder="Enter Your Username">
+                </div>
+                <div class="from">
+                    <input type="text" name="" placeholder="Enter Your Password">
+                </div>
+                <button class="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="wel">
+            Welcome To The Restorent
+        </div>
+        <div class="container1">
+        </div>
+    </div>
+    </div>
+    <div class="contact">
+        <div class="book">
+            <!-- <img src="book.jpg" alt=""> -->
+            <div class="from-container">
+                <h1>
+                    Book A Tabil
+                </h1>
+                <h4>Making a reservation at Délicious restaurant is easy and takes just a couple of minutes.</h4>
+                <form action="noaction.php">
+                    <div class="book-from">
+                        <input type="text" name="" placeholder="Enter Your Name">
+                    </div>
+                    <div class="book-from">
+                        <input type="text" name="" placeholder="Enter Your Phone Number">
+                    </div>
+                    <div class="book-from">
+                        <input type="text" name="" placeholder="Enter Your Massege OR Number Of person">
+                    </div>
+                    <div class="date">
+                        <input type="text" date="" placeholder="Enter Date">
+                    </div>
+                    <div class="time">
+                        <input type="text" time="" placeholder="Selected Time">
+                    </div>
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    >
+</body>
+
+</html>
